@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b162e">
+    <title>Yash Kushwaha Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="page-glow" aria-hidden="true"></div>
+    <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <section id="hero-section">
+        <header>
+            <div class="logo">
+                <h1>YK Portfolio</h1>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-list">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" aria-label="Main navigation">
+                <ul id="nav-list">
+                    <li><a id="a1" href="#hero-section">Home</a></li>
+                    <li><a id="a2" href="#about">About</a></li>
+                    <li><a id="a3" href="#skils">Projects</a></li>
+                    <li><a id="a4" href="#services">Services</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Switch color mode" aria-pressed="false" title="Switch color mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#contact" id="btn" class="btn btn-primary nav-cta">Contact Me</a>
+            </div>
+        </header>
+
+        <section id="hero">
+            <div class="img reveal">
+                <img id="img" src="photo.png" alt="Portrait of Yash Kushwaha">
+            </div>
+
+            <div class="text reveal">
+                <p id="welcome">Welcome to my world</p>
+                <p class="intro-line"><span id="hi">Hi, I am</span> <span class="name">Yash Kushwaha</span></p>
+
+                <h2 class="role">
+                    <span id="software">Software</span> Developer <br>
+                    Frontend Developer and JS Enthusiast
+                </h2>
+
+                <div id="decription">
+                    <p class="desc">
+                        I design and build clean, interactive web experiences. I specialize in frontend development
+                        using HTML, CSS, JavaScript, and React.js. Alongside this, my knowledge of C, C++, Python,
+                        and DSA strengthens my problem-solving and core programming skills.
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <a id="btn1" class="btn btn-primary" href="#skils">View Projects</a>
+                    <a id="btn2" class="btn btn-secondary" href="#contact">Contact Me</a>
+                </div>
+
+                <div class="social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/yash-kushwaha-25a217376" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/yash3556" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="about">
+        <div class="about-main">
+            <div class="about-text reveal">
+                <h4 id="about-h1">ABOUT ME</h4>
+                <p id="about-para">
+                    I am Yash Kushwaha, a passionate developer who loves turning ideas into functional and meaningful
+                    web experiences. I am currently pursuing my degree in Computer Applications and actively building
+                    projects in web development and programming.
+                    <br><br>
+                    My skill set includes HTML, CSS, JavaScript, React.js, C, C++, Python, and DSA in C++. I have also
+                    explored AI/ML concepts through projects like house price prediction and car data analysis.
+                    <br><br>
+                    What sets me apart is my curiosity to learn, strong problem-solving mindset, and the ability to stay
+                    disciplined while balancing academics and self-learning. I believe growth comes from consistent
+                    effort and real-world practice.
+                    <br><br>
+                    I am always eager to learn new technologies and collaborate on exciting projects.
+                </p>
+            </div>
+
+            <div class="about-image reveal">
+                <img id="img-about" src="yash.jpeg" alt="Yash Kushwaha profile photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="skils">
+        <div class="skills-main">
+            <div class="skills">
+                <h2 class="reveal">My Skills and Projects</h2>
+
+                <div class="skill-container">
+                    <div class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Advanced</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Advanced</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Intermediate</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>React JS</h3>
+                        <p>Intermediate</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>C and C++</h3>
+                        <p>DSA</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Python</h3>
+                        <p>Beginner to Intermediate</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-card">
+                    <article class="box">
+                        <div class="box-image">
+                            <img class="box-img" src="kwality.png" alt="Portfolio project preview">
+                        </div>
+                        <div class="box-head">
+                            <h4 class="box-h1">Kwality Wall’s Website</h4>
+                            <a href="https://hackathon-team-46.vercel.app/"><button class="box-btn" type="button">open</button></a>
+                        </div>
+                        <div class="box-para">
+                            <p class="box-para-text">Redesigned a fully responsive Kwality Wall’s website with modern UI, interactive card game, chatbot, and location-based features for an engaging user experience.</p>
+                        </div>
+                    </article>
+
+                    <article class="box">
+                        <div class="box-image">
+                            <img class="box-img" src="notespro.png" alt="Dashboard project preview">
+                        </div>
+                        <div class="box-head">
+                            <h4 class="box-h1">NOTE$PRO App</h4>
+                           <a href="http://yk-notespro-app.vercel.app/"><button class="box-btn" type="button">open</button></a>
+                        </div>
+                        <div class="box-para">
+                            <p class="box-para-text">Built a responsive notes app with CRUD features and AI integration for smart, fast, and efficient note management.</p>
+                        </div>
+                    </article>
+
+                    <article class="box">
+                        <div class="box-image">
+                            <img class="box-img" src="project1.png" alt="Data analysis project preview">
+                        </div>
+                        <div class="box-head">
+                            <h4 class="box-h1">Stone Paper Scissors Game</h4>
+                           <a href="https://stones-paper-scissors.vercel.app/"> <button class="box-btn" type="button">play</button></a>
+                        </div>
+                        <div class="box-para">
+                            <p class="box-para-text">Developed an interactive Stone Paper Scissors game with real-time user input, score tracking, and responsive UI for an engaging gameplay experience.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="section-title reveal">My Services</h2>
+
+        <div class="service-container">
+            <article class="service-card">
+                <i class="fas fa-laptop-code service-icon"></i>
+                <h3>Web Design</h3>
+                <p>
+                    I create responsive and visually appealing websites using modern design principles that work
+                    smoothly on all devices.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <i class="fas fa-palette service-icon"></i>
+                <h3>UI / UX Design</h3>
+                <p>
+                    I design user-friendly interfaces and seamless user experiences that focus on usability, clarity,
+                    and engagement.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <i class="fas fa-code service-icon"></i>
+                <h3>Front-End Development</h3>
+                <p>
+                    I build fast and interactive front-end applications using HTML, CSS, JavaScript, and React.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <i class="fas fa-database service-icon"></i>
+                <h3>DBMS</h3>
+                <p>
+                    I design and manage efficient databases with proper data organization, query performance,
+                    and optimization.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-main">
+            <div class="contact-card">
+                <h1>We would love to hear from you</h1>
+                <form id="contact-form">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                    <textarea id="message" placeholder="Message"></textarea>
+
+                    <div class="form-actions">
+                        <button type="submit" id="send-btn">Submit</button>
+                        <button type="reset" id="reset-btn">Reset</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact-info reveal">
+                <h1>Contact and Follow</h1>
+                <div class="phone">
+                    <h3><i class="fas fa-phone"></i> Phone and Email</h3>
+                    <p><span class="label-highlight">Phone:</span> +91 9569404809<br>
+                        <span class="label-highlight">Email:</span> yashkush660@gmail.com</p>
+
+                    <h3><i class="fas fa-mobile-alt"></i> Social</h3>
+                    <p>
+                        <a href="https://www.instagram.com/yash_the_starboy/">Instagram</a>
+                        <a href="https://github.com/yash3556">Github</a>
+                        <a href="https://www.linkedin.com/in/yash-kushwaha-25a217376">LinkedIn</a>
+                        <a href="https://twitter.com/YashKushwaha29">Twitter</a>
+                    </p>
+
+                    <h3><i class="fas fa-clock"></i> Working Hours</h3>
+                    <p><span class="label-highlight">Mon - Fri:</span> 9:00 PM - 11:00 PM <br>
+                        <span class="label-highlight">Sat - Sun:</span> 10:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script>
+            (function () {
+                emailjs.init("AZnufYvx3GZ1yyo4P");
+            })();
+        </script>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
